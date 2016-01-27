@@ -8,13 +8,13 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Name="outputThermometer" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,73,833,652" Width="523" Height="43">Thermometer: No data yet</TextBlock>
-        <TextBlock Name="outputUserInformation" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="797,78,46,647" Width="523" Height="43">User information: No data yet</TextBlock>
-        <TextBlock Name="outputThermometer2" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="115,121,201,578" Width="1050" Height="69" RenderTransformOrigin="0.5,0.578">Humidity: No data yet</TextBlock>
+        <TextBlock Name="outputThermometer" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,73,697,652" Width="659" Height="43">Thermometer: No data yet</TextBlock>
+        <TextBlock Name="outputUserInformation" FontSize="18" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="797,35,46,578" Width="523" Height="155">User information: No data yet</TextBlock>
+        <TextBlock Name="outputThermometer2" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="115,121,201,578" Width="1050" Height="69" RenderTransformOrigin="0.5,0.578">Humidity: No data yet</TextBlock>
         <TextBlock Name="outputGyroscope" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="115,195,790,315" Width="461" Height="258" RenderTransformOrigin="0.5,0.578">Gyroscope: No data yet</TextBlock>
-        <TextBlock Name="outputLight" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="63,520,46,146" Width="1257" Height="102">Light: No data yet</TextBlock>
+        <TextBlock Name="outputLight" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="63,520,697,71" Width="606" Height="177">Light: No data yet</TextBlock>
         <TextBlock Name="outputMicrophone" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="63,453,63,253" Width="1240" Height="62">Microphone: No data yet</TextBlock>
-        <TextBlock x:Name="outputDevices" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="842,195,63,315" Width="461" Height="258" RenderTransformOrigin="0.5,0.578">
+        <TextBlock x:Name="outputDevices" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="842,195,63,191" Width="461" Height="382" RenderTransformOrigin="0.5,0.578">
         	<Run Text="Devices: No data yet"/>
         </TextBlock>
     </Grid>
